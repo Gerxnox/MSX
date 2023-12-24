@@ -1,0 +1,33 @@
+# Automated System Update Bash Script
+
+## Overview
+
+This Bash script automates the process of updating and upgrading packages on a Debian-based system using the `apt` package manager.
+
+## Prerequisites
+
+- This script is intended for use on Debian-based systems.
+- Ensure you have sudo privileges to execute the script.
+
+## Usage
+
+1. Save the script in a file, for example, `update_system.sh`.
+2. Make the script executable with the following command:
+    ```bash
+    chmod +x update_system.sh
+    ```
+3. Run the script with:
+    ```bash
+    ./update_system.sh
+    ```
+
+The script will prompt for the sudo password when necessary and automatically update and upgrade the system.
+
+## Important Note
+
+- Ensure that you have a good understanding of the commands being executed by the script before running it.
+- Use this script at your own risk. Always backup important data before performing system updates.
+
+## License
+
+This script is provided under the [MIT License](LICENSE).
